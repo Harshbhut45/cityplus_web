@@ -12606,9 +12606,7 @@ textarea.parsley-success:focus {
       height: 60px; } }
   .navbar-header > .container {
     padding: 0; }
-    @media (max-width: 1139px) {
-      .navbar-header > .container {
-        max-width: none; } }
+    
     @media (min-width: 1140px) {
       .navbar-header > .container .navbar-brand {
         padding-left: 0; }
