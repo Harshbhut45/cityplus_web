@@ -71,4 +71,30 @@
       </div>
 
 
+       {{-- responsive-image --}}
+       <div class="card-stack__res1">
+        <div class="news-card__res1">
+          <div class="row news__card">
+            <div class=" col-md-12 col-sm-12 col-xs-12">
+                  <div class="news-media news-thum">
+                    <img class="news-media-image news-thum__img" src="images\covid-1.png">
+                </div>
+               
+            </div>
+         
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 header__price__res header__box">
+        <div class="header-app__res pd-l-15" >
+            <div class="header-app__text">
+              For the best experience use our app
+            </div>
+            <div class="clearfix">
+              <a href="https://play.google.com/store/apps/details?id=com.cityplus.local.news.info"><img src= 'images\Play_Store.png'></a></a>
+            </div>
+        </div>
+      </div>
+
 @endsection

@@ -1,6 +1,5 @@
 body {
     background: #f9f9f9!important;
-    font-family: "HindVadodara";
 }
 .navbar-header {
   border-bottom: 1px solid rgba(72, 94, 144, 0.16);
@@ -29,12 +28,15 @@ body {
   background-color: rgb(205, 65, 51)!important;
   height: 60px!important;
   border: none!important;
+  
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow {
   top: 10px!important;
 }
 .df-logo {
   color: rgb(255, 255, 255)!important;
+  margin-top: -18px!important;
+  letter-spacing: 1px!important;
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: rgb(255, 255, 255)!important;
@@ -45,7 +47,9 @@ body {
 .navbar-menu .nav-link {
   color: rgb(255, 255, 255)!important;
 }
-
+.header__price {
+  padding: 0px!important;
+}
 
 /* header 2 */
 .header-banner {
@@ -60,7 +64,7 @@ body {
 .header__gold {
   display: flex;
   align-items: center;
-  line-height: 2.722;
+  line-height: 3.722;
   font-size: 18px;
   font-family: "MuktaVaani";
   font-weight: bold;
@@ -105,7 +109,7 @@ body {
   background-color: rgb(0, 0, 0);
   opacity: 0.102;
   width: 1px;
-  height: 23px;
+  /* height: 23px; */
   z-index: 28;
   margin: 12px;
 }
@@ -114,6 +118,7 @@ body {
   color: rgb(41, 42, 51);
   font-weight: bold;
   line-height: 3.267;
+  letter-spacing: 0.3px;
 }
 .clearfix {
   padding-left: 20px;
@@ -146,6 +151,18 @@ body {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
+.news-card__res {
+  margin-bottom: 20px;
+  background-color: #f3f5f9;
+  padding: 20px 20px 0px 20px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.card-stack__res {
+  display: none;
+}
+.card-stack__res1 {
+  display: none;
+}
 .news__time span {
     background-color: rgb(249, 247, 247);
     height: 57px;
@@ -155,8 +172,6 @@ body {
     color: rgb(68, 70, 88);
     font-weight: bold;
     line-height: 1.824;
-     
-    
 }
 .news-card__slider {
   position: relative;
@@ -194,6 +209,7 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 2.067;
+    letter-spacing: 1;
 }
 .author__card-city {
   background-color: rgb(82, 141, 229);
@@ -205,6 +221,7 @@ body {
   color: rgb(255, 255, 255);
   font-weight: bold;
   line-height: 3.267;
+  letter-spacing: 1;
 }
 .mr-10 {
   margin-left: 20px;
@@ -214,7 +231,7 @@ body {
     font-family: "HindVadodara";
     color: rgb(41, 42, 51);
     font-weight: bold;
-    line-height: 1.824;
+    line-height: 1.0;
  
 }
 .author__name span {
@@ -574,6 +591,70 @@ body {
   display: none;
 }
 
+
+/* social-icon-css */
+/* fixed social*/
+#fixed-social {
+  /* position: fixed; */
+  position: absolute;
+  top: 424px;
+  right: -60px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 8px 0px 8px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  z-index: 100;
+}
+#fixed-social a {
+  color: #fff;
+  display: block;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+}
+.fixed-facebook{
+  background-color: rgb(66, 103, 178);
+}
+.fixed-twitter{
+ background-color: rgb(3, 169, 244);
+}
+.fixed-gplus{
+  background-color: rgb(37, 211, 102);
+}
+.fixed-linkedin{
+  background-color: rgb(231, 75, 59);
+}
+.fixed-linkedin span{
+  background-color: #FFC41E;
+}
+.fixed-instagrem{
+ background-color: #ED2B29;
+
+}
+.fixed-instagrem span{
+  background-color: #ED2B29;
+}
+.fixed-tumblr{
+ background-color: #EB1471;
+
+}
+.fixed-tumblr span{
+  background-color: #EB1471;
+}
+.header__price__res {
+  display: none;
+}
+#fixed-social__res {
+  display: none;
+}
+/*end fixed social*/
 /********** responsive **********/
 
 @media (max-width: 1199px) {
@@ -585,10 +666,101 @@ body {
     max-width: 100%!important;
   }
 }
-@media (max-width: 991px) {
-  .header-banner {
-    margin-top: 55px;
+@media (max-width: 1024px) {
+  .card-stack__res {
+    display: block;
   }
+  .card-stack__res1 {
+    display: block;
+  }
+  .header__price__res {
+    display: block;
+    padding-left: 0px!important;
+  }
+  #fixed-social__res {
+    display: block;
+  }
+  .header__box {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+  .header-app__res {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  .pd-l-15 {
+    padding-left: 15px;
+  }
+  #fixed-social {
+    display: none;
+  }
+  
+  #fixed-social__res {
+    /* position: absolute; */
+    display: flex;
+    /* float: right; */
+    justify-content: space-between;
+    padding: 0px 8px 0px 8px;
+    z-index: 100;
+    border-bottom: 2px solid #f3f5f9;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 0px 0 rgba(0,0,0,0.12); 
+  }
+  .social__name p {
+      font-size: 20px;
+      font-family: "HindVadodara";
+      color: rgb(41, 42, 51);
+      font-weight: bold;
+      line-height: 3.05;
+      padding-top: 7px;
+      margin-bottom: 0;
+  }
+  .social__name {
+    display: flex;
+    align-items: center;
+  }
+  .social__icon {
+    display: flex;
+  }
+  .icon {
+    font-size: 20px!important;
+  }
+  #fixed-social__res a {
+    color: #fff;
+    display: block;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+  }
+  .dsn__card {
+    display: none!important;
+}
+.navbar-header-fixed {
+  padding-top: 20px!important;
+}
+.navbar-header {
+  height: 100px!important;
+}
+.header-banner {
+  margin-top: 100px;
+}
+}
+@media (max-width: 991px) {
+  .dsn__card {
+    display: none!important;
+  }
+  .navbar-header-fixed {
+    padding-top: 0px!important;
+}
   .navbar-header-fixed {
     position: fixed!important;
     top: 0;
@@ -642,6 +814,83 @@ body {
 .news-card-title {
   padding: 8px 25px 8px 25px;
 }
+.select2-container--default .select2-selection--single {
+  height: 55px!important;
+}
+.card-stack__res {
+  display: block;
+}
+.card-stack__res1 {
+  display: block;
+}
+.header__price__res {
+  display: block;
+  padding-left: 0px!important;
+}
+#fixed-social__res {
+  display: block;
+}
+.header__box {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.header-app__res {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.pd-l-15 {
+  padding-left: 15px;
+}
+#fixed-social {
+  display: none;
+}
+
+#fixed-social__res {
+  /* position: absolute; */
+  display: flex;
+  /* float: right; */
+  justify-content: space-between;
+  padding: 0px 8px 0px 8px;
+  z-index: 100;
+  border-bottom: 2px solid #f3f5f9;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 0px 0 rgba(0,0,0,0.12); 
+}
+.social__name p {
+    font-size: 20px;
+    font-family: "HindVadodara";
+    color: rgb(41, 42, 51);
+    font-weight: bold;
+    line-height: 3.05;
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+.social__name {
+  display: flex;
+  align-items: center;
+}
+.social__icon {
+  display: flex;
+}
+.icon {
+  font-size: 20px!important;
+}
+#fixed-social__res a {
+  color: #fff;
+  display: block;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+}
 }
 @media (max-width: 767px) {
   .header__gold {
@@ -656,6 +905,17 @@ body {
 }
 .card-stack {
   margin-top: 20px;
+}
+
+}
+@media (max-width: 537px) {
+  .news__time {
+    display: none;
+}
+.news-card-title {
+  /* padding: 0px; */
+  /* display: flex; */
+  justify-content: center;
 }
 }
 @media (max-width: 518px) {
@@ -677,9 +937,7 @@ body {
     justify-content: center;
     font-size: 18px;
   }
-  .news__time {
-    display: none;
-}
+  
 }
 @media (max-width: 439px) {
 .headline {
@@ -687,5 +945,36 @@ body {
 }
 .articleBody {
   font-size: 18px;
+}
+}
+@media (max-width: 446px) {
+.header-app__res {
+  display: block;
+  width: 100%;
+  justify-content: center;
+  padding-top: 0px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+}
+@media (max-width: 431px) {
+  .header-app__res {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    padding-top: 0px;
+    align-items: center;
+    text-align: center;
+}
+.social__name {
+  display: none;
+}
+.social__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 }
