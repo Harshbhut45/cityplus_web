@@ -52,7 +52,7 @@
                
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-              <div class="news-card-title news-right-box">
+              <div class="news-card-title news-right-box p-all">
                 <div class="news-card-author-time news-card-author-time-in-title">
                     <span class="author__card mr-1">BREAKING NEWS </span>
                     <span class="author__card-city mr-1">ગોંડલ </span>

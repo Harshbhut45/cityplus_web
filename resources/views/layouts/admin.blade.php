@@ -47,16 +47,16 @@
       </div><!-- navbar-brand -->
      
         <div class="navbar-right">
+          <div class="navbar-image__icon">
+          <img src='images\aim.png'>
           <div class="form-group ">
-            
-            <select class="select2" name="country">
-             
+            <select class="select2 fa fa-map-marker" name="country">
+              {{-- <i class="fa fa-map-marker" aria-hidden="true"></i> --}}
                 <option disabled selected value>Select City</option>
-                <option ><img src='images\visible.png' height='25' width='33'>Bardiya</option>
-              
+                <option class="select2 fa fa-map-marker" >Bardiya</option>
             </select>
           
-
+            </div>
           </div>
         </div>
       </div><!-- nav-wrapper -->
