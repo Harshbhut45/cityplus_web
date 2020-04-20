@@ -50,10 +50,10 @@
           <div class="navbar-image__icon">
           <img src='images\aim.png'>
           <div class="form-group ">
-            <select class="select2 fa fa-map-marker" name="country">
+            <select class="select2" name="country">
               {{-- <i class="fa fa-map-marker" aria-hidden="true"></i> --}}
-                <option disabled selected value>Select City</option>
-                <option class="select2 fa fa-map-marker" >Bardiya</option>
+                <option disabled selected value>રાજકોટ</option>
+                <option class="select2" >રાજકોટ</option>
             </select>
           
             </div>
