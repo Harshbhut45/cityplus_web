@@ -701,15 +701,22 @@ body {
   #fixed-social__res {
     display: block;
   }
+ 
   .header__box {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-  }
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed!important;
+    bottom: 0px;
+    left: 0;
+    z-index: 1062;
+}
   .header-app__res {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: 7px;
   }
   .pd-l-15 {
     padding-left: 15px;
@@ -726,8 +733,17 @@ body {
     padding: 0px 8px 0px 8px;
     z-index: 100;
     border-bottom: 2px solid #f3f5f9;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 0px 0 rgba(0,0,0,0.12); 
+    /* box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 0px 0 rgba(0,0,0,0.12);  */
   }
+  .footer__box {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed!important;
+    bottom: 0px;
+    left: 0;
+    z-index: 1061;
+}
   .social__name p {
       font-size: 20px;
       font-family: "HindVadodara";
@@ -761,6 +777,9 @@ body {
     align-items: center;
     display: flex;
     z-index: 2;
+  }
+  #fixed-social__res a:last-child {
+    margin-right: 0px;
   }
   .dsn__card {
     display: none!important;
@@ -853,19 +872,35 @@ body {
 .header__price__res {
   display: block;
   padding-left: 0px!important;
+  padding-right: 0px!important;
 }
 #fixed-social__res {
   display: block;
 }
 .header__box {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position: fixed!important;
+  bottom: 0px;
+  left: 0;
+  z-index: 1062;
+}
+.footer__box {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position: fixed!important;
+  bottom: 0px;
+  left: 0;
+  z-index: 1061;
 }
 .header-app__res {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  padding-top: 15px;
+  padding-top: 7px;
 }
 .pd-l-15 {
   padding-left: 15px;
@@ -879,10 +914,9 @@ body {
   display: flex;
   /* float: right; */
   justify-content: space-between;
-  padding: 0px 8px 0px 8px;
+  padding: 0px;
   z-index: 100;
   border-bottom: 2px solid #f3f5f9;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 0px 0 rgba(0,0,0,0.12); 
 }
 .social__name p {
     font-size: 20px;
@@ -917,6 +951,9 @@ body {
   align-items: center;
   display: flex;
   z-index: 2;
+}
+#fixed-social__res a:last-child {
+  margin-right: 0px;
 }
 }
 @media (max-width: 767px) {

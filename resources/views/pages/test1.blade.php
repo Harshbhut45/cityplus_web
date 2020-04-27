@@ -144,34 +144,8 @@
           </div>
 
 
-          {{-- responsive-image --}}
-          <div class="card-stack__res">
-            <div class="news-card__res">
-              <div class="row news__card">
-                <div class=" col-md-12 col-sm-12 col-xs-12">
-                      <div class="news-media news-thum">
-                        <img class="news-media-image news-thum__img" src="images\covid-1.png">
-                    </div>
-                   
-                </div>
-                <div class=" col-md-12 col-sm-12 col-xs-12">
-                  <div class="news-card-title news-right-box">
-                    <div class="news-card-author-time news-card-author-time-in-title">
-                        <span class="author__card mr-1">BREAKING NEWS </span>
-                        <span class="author__card-city mr-1">ગોંડલ </span>
-                        <span class="news__time ml-1">3:20 am on 12 Apr 2020</span>
-                       
-                    </div>
-                  
-                   
-                   
-                   </div>
-                </div>
-              </div> 
-            </div>
-          </div>
-
-          
+      <div class="footer__box">
+        <div class="container">
           <div id="fixed-social__res">
             <div class="social__name">
               <p>Share :</p>
@@ -200,6 +174,8 @@
                 </div>
             </div>
           </div>
+        </div>
+      </div>
     </div>
 
          
