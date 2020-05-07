@@ -143,7 +143,6 @@
             </div>
           </div>
 
-
       <div class="footer__box">
         <div class="container">
           <div id="fixed-social__res">
