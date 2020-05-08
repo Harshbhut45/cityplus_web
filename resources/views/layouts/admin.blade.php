@@ -34,8 +34,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
    
     
-   
-    
   </head>
   <body>
 
@@ -48,10 +46,10 @@
      
         <div class="navbar-right">
           <div class="navbar-image__icon">
-          <img src='images\aim.png'>
+          <img src='images\aim.png' class="img-dropdown__icon">
           <div class="form-group ">
             <select class="select2" name="country">
-                <option disabled selected value>રાજકોટ</option>
+                <option disabled selected value>રાજકોટ રાજકોટ</option>
                 <option class="select2" >રાજકોટ</option>
             </select>
             </div>
