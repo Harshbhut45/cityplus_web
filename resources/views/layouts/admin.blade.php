@@ -74,5 +74,10 @@
     <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
     <script src="{{ asset('js/slider.js') }}"></script>
 
+{{-- header-slider --}}
+      <script src="{{ asset('js/header-slider.js') }}"></script>
+
+    
+
   </body>
 </html>
