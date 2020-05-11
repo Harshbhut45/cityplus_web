@@ -1,3 +1,4 @@
+$(document).ready(function(){
 $('.center').slick({
     centerMode: true,
     infinite: true,
@@ -15,3 +16,4 @@ $('.center').slick({
   $('.center').on('afterChange', function(event, slick, currentSlide){
     console.log('afterChange', currentSlide);
   });
+})

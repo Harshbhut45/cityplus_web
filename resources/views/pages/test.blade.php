@@ -55,7 +55,6 @@
                 <div class="goldTxt">ચાંદી :</div>
                 <div class="specifics">45000  <span class="fa fa-caret-up"></span></div>
               </div>
-              <div class="slider-line"></div>
             </div>
           </div>
           <div>
@@ -65,7 +64,6 @@
                 <div class="goldTxt">સેનસેકસ :</div>
                 <div class="earnings">27802  <span class="fa fa-caret-down"></span></div>
             </div>
-            <div class="slider-line"></div>
             </div>
           </div>
   
@@ -77,7 +75,6 @@
                   <div class="goldTxt">સોનુ : </div>
                   <div class="specifics">45000  <span class="fa fa-caret-up"></span></div>
               </div>
-              <div class="slider-line"></div>
             </div>
           </div>
       

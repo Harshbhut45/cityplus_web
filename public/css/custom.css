@@ -831,8 +831,8 @@ body {
   transform: translateX(-140px)!important;
   transition: all 0.4s;
   display: flex;
-    right: 0;
-    z-index: 1000;
+  right: 0;
+  z-index: 1000;
 }
 .form-group {
   margin-bottom: 0px!important;
@@ -990,9 +990,11 @@ body {
   width: 1px;
   /* height: 23px; */
   z-index: 28;
-  margin: 12px;
   margin-left: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
  }
+ 
 .card-stack {
   margin-top: 20px;
 }
@@ -1118,14 +1120,14 @@ body {
   }
   .img-dropdown__icon {
     margin-right: -27px;
- }
+  }
  .select2-container--default .select2-selection--single .select2-selection__rendered {
   padding-left: 1.857rem!important;
-}
-.center .slick-slide {
-  height: 70px;
-  width: 205px;
-}
+  }
+  .center .slick-slide {
+    height: 70px;
+    width: 205px;
+  }
 }
 
 
